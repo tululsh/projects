@@ -1,0 +1,458 @@
+* {
+    margin: 0px;
+}
+
+// body //
+body {
+    background-image: url("../images/big-ben-bridge-castle-city-460672_1500x800.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+// <!-- //nav-container -->
+.nav-container {
+    width: 85%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    border-bottom: 1px solid white;
+
+    .fa-bars {
+        display: none;
+    }
+
+    .left-side {
+        display: flex;
+        margin-left: 8px;
+
+        img {
+            height: 22px;
+            margin-top: 8px;
+            width: 111px;
+
+        }
+
+        .list {
+            ul {
+                display: flex;
+                list-style-type: none;
+                align-items: center;
+                margin-top: 10px;
+                width: 538px;
+                justify-content: space-evenly;
+
+
+                li {
+                    margin-right: 10px;
+                    color: white;
+                    align-items: center;
+                    font-size: small;
+                    font-weight: bold;
+
+
+                }
+            }
+        }
+    }
+
+    .right-side {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: -3px;
+
+        .states {
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+
+            h1 {
+                color: white;
+                font-size: small;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+
+            .icon {
+                img {
+                    margin-right: 10px;
+                    width: 17px;
+                    height: 13px;
+                    margin-bottom: 9px;
+                }
+            }
+        }
+
+        .my-account {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                color: white;
+                margin-right: 10px;
+                font-size: small;
+                font-weight: bold;
+            }
+
+            .icon {
+                margin-bottom: 10px;
+                color: white;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+// <!-- banner-container -->
+.banner-container {
+    margin-top: 100px;
+    margin-left: 187px;
+
+    .inputs-container {
+        margin-left: -8px;
+
+        input {
+            height: 50px;
+
+            &::placeholder {
+                font-size: 15px;
+                color: white;
+                position: relative;
+                left: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .mark-container {
+        position: relative;
+        z-index: 2;
+        left: 167px;
+        top: 15px;
+        font-size: 12px;
+    }
+
+
+    .markerTwo-container {
+        position: relative;
+        z-index: 2;
+        left: 167px;
+        top: 15px;
+        font-size: 12px;
+    }
+
+    .calendar-container {
+        position: relative;
+        z-index: 2;
+        left: 165px;
+        top: 16px;
+        font-size: 12px;
+    }
+
+    .calendarTwo-container {
+        position: relative;
+        z-index: 2;
+        left: 165px;
+        top: 16px;
+        font-size: 12px;
+    }
+
+    .friends-container {
+        position: relative;
+        z-index: 2;
+        left: 167px;
+        top: 16px;
+        font-size: 10px;
+    }
+
+
+    .fas {
+        color: black;
+        background-color: transparent;
+    }
+
+    .far {
+        color: black;
+    }
+
+    .btnSearch {
+        width: 125px;
+        margin-left: 15px;
+        background-color: #cbcbcb66;
+
+    }
+
+    .type-container {
+        .inputTrip {
+            font-size: 8px;
+
+        }
+
+        .inputWay {
+            font-size: 8px;
+            border-color: white;
+        }
+
+        .oneWay {
+            margin-left: 78px;
+
+        }
+    }
+
+}
+
+
+// MEDIA QUERY //
+@media screen and (max-width:375px) {
+
+    // body //
+    body {
+        background-image: url("../images/big-ben-bridge-castle-city-460672_1500x800.jpg");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    // NAV-CONTAINER //
+    .nav-container {
+        width: 85%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: none;
+
+        .fa-bars {
+            display: block;
+            color: white;
+            position: relative;
+            left: 304px;
+            font-size: 24px;
+            top: 10px;
+        }
+
+        .left-side {
+            img {
+                position: relative;
+                right: 214px;
+                width: 112px;
+                height: 33px;
+            }
+
+            .list {
+                display: none;
+            }
+        }
+
+        .right-side {
+            display: none;
+        }
+    }
+
+    // BANNER-CONTAINER //
+    .banner-container {
+        margin-top: 65px;
+
+        h2 {
+            font-size: 30px;
+            margin-left: -185px;
+        }
+
+        p {
+            font-size: 16px !important;
+            margin-left: -179px;
+        }
+
+        .inputs-container {
+            margin-left: -200px;
+
+            .inputDeparture {
+                margin-bottom: 12px;
+                width: 347px;
+
+                &::placeholder {
+                    font-size: 25px;
+                    color: white;
+                    position: relative;
+                    left: 20px;
+                    font-weight: bold;
+                }
+            }
+
+            .inputArrival {
+                margin-bottom: 12px;
+                width: 347px;
+
+                &::placeholder {
+                    font-size: 25px;
+                    color: white;
+                    position: relative;
+                    left: 20px;
+                    font-weight: bold;
+                }
+            }
+
+            .inputDateOne {
+                margin-bottom: 12px;
+                margin-left: -5px;
+                width: 347px;
+
+                &::placeholder {
+                    font-size: 25px;
+                    color: white;
+                    position: relative;
+                    left: 20px;
+                    font-weight: bold;
+                }
+            }
+
+            .inputDateTwo {
+                margin-bottom: 12px;
+                margin-left: -5px;
+                width: 347px;
+
+                &::placeholder {
+                    font-size: 25px;
+                    color: white;
+                    position: relative;
+                    left: 20px;
+                    font-weight: bold;
+                }
+            }
+
+            .inputNumber {
+                margin-bottom: 12px;
+                margin-left: -4px;
+                margin-left: -12px;
+                width: 347px;
+
+                &::placeholder {
+                    font-size: 25px;
+                    color: white;
+                    position: relative;
+                    left: 20px;
+                    font-weight: bold;
+                }
+            }
+
+        }
+
+        .mark-container {
+            position: relative;
+            z-index: 2;
+            left: 324px;
+            top: 6px;
+            font-size: 23px;
+        }
+
+        .markerTwo-container {
+            position: relative;
+            z-index: 2;
+            left: 324px;
+            top: 6px;
+            font-size: 23px;
+        }
+
+        .calendar-container {
+            position: relative;
+            z-index: 2;
+            left: 326px;
+            top: 3px;
+            font-size: 26px;
+        }
+
+        .calendarTwo-container {
+            position: relative;
+            z-index: 2;
+            left: 326px;
+            top: 3px;
+            font-size: 26px;
+        }
+
+        .friends-container {
+            position: relative;
+            z-index: 2;
+            left: 326px;
+            top: 6px;
+            font-size: 23px;
+        }
+
+        .fas {
+            color: whitesmoke;
+
+        }
+
+        .far {
+            color: whitesmoke;
+        }
+
+        .btnSearch {
+            width: 348px;
+            height: 50px;
+            margin-left: 17px;
+            background-color: #b7b7b794;
+            font-size: 24px !important;
+
+        }
+
+        .type-container {
+            margin-top: 24px;
+            margin-left: -166px;
+
+            .inputTrip {
+                font-size: 15px;
+
+            }
+
+            .roundTrip {
+                font-size: 18px !important;
+            }
+
+            .inputWay {
+                font-size: 15px;
+                border-color: white;
+            }
+
+            .oneWay {
+                margin-left: 78px;
+                font-size: 18px !important;
+
+            }
+        }
+    }
+
+
+    // JAVASCRIPT//
+   
+    .flights-container {
+        margin-top: 161px !important;
+    }
+    // BOX ONE //
+    .main-container {
+        width: 374px !important;
+
+    }
+    
+
+    // BOX TWO//
+    .mainTwo-container {
+        width: 374px !important;
+
+    }
+
+    // BOX THREE //
+    .mainThree-container {
+        width: 374px !important;
+
+    }
+    // .logo-container{
+    //     width:10px !important;
+    // }
+   
+}
+   
+
+  

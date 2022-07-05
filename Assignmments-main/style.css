@@ -1,0 +1,725 @@
+* {
+  margin: 0px;
+}
+
+.nav-container {
+  background-color: #292729;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .fa-bars {
+  display: none;
+}
+
+.nav-container .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 70px;
+}
+
+.nav-container .left-side img {
+  height: 30px;
+  margin-top: 10px;
+  width: 111px;
+}
+
+.nav-container .left-side .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  width: 538px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-container .left-side .list ul li {
+  margin-right: 10px;
+  color: #ADB5BD;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.nav-container .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 63px;
+}
+
+.nav-container .right-side .states {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .right-side .states h1 {
+  color: #ADB5BD;
+  font-size: small;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.nav-container .right-side .states .icon img {
+  margin-right: 10px;
+  width: 17px;
+  height: 13px;
+  margin-bottom: 9px;
+}
+
+.nav-container .right-side .my-account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .right-side .my-account h1 {
+  color: #ADB5BD;
+  margin-right: 10px;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.nav-container .right-side .my-account .icon {
+  margin-bottom: 10px;
+  color: #ADB5BD;
+  margin-right: 10px;
+}
+
+.banner-container {
+  margin-top: 50px;
+}
+
+.banner-container .left-side .flag img {
+  position: relative;
+  left: 160px;
+  top: -10px;
+}
+
+.second-container {
+  margin-top: 50px;
+}
+
+.second-container .passenger-details .passengerMonth {
+  width: 140%;
+  text-align: start;
+}
+
+.second-container .passenger-day .passengerDay {
+  width: 100%;
+  text-align: start;
+}
+
+.second-container .passenger-year .passengerYear {
+  width: 100%;
+  text-align: start;
+}
+
+.second-container .passenger-name .passengerFirst {
+  width: 100%;
+  text-align: start;
+}
+
+.second-container .passenger-passport .passengerPassport {
+  width: 100%;
+  text-align: start;
+}
+
+.second-container .passenger-gender .passengerGender {
+  width: 100%;
+  text-align: start;
+}
+
+.second-container .passenger-citiz .passengerCitiz {
+  width: 100%;
+  text-align: start;
+}
+
+.second-container .passenger-last .passengerLast {
+  width: 100%;
+  text-align: start;
+}
+
+.third-container {
+  margin-top: 50px;
+}
+
+.third-container .billing-street .billingStreet {
+  width: 100%;
+  text-align: start;
+}
+
+.third-container .billing-post .billingPost {
+  width: 100%;
+  text-align: start;
+}
+
+.third-container .billing-state .billingState {
+  width: 100%;
+  text-align: start;
+}
+
+.third-container .information-country .informationCountry {
+  width: 100%;
+  text-align: start;
+}
+
+.third-container .information-city .informationCity {
+  width: 100%;
+  text-align: start;
+}
+
+.third-container .information-street .informationStreet {
+  width: 100%;
+  text-align: start;
+}
+
+.fourth-container .billing-card .billingCard {
+  width: 100%;
+  text-align: start;
+}
+
+.fourth-container .billing-month .billingMonth {
+  width: 90%;
+  text-align: start;
+}
+
+.fourth-container .billing-year .billingYear {
+  width: 90%;
+  text-align: start;
+}
+
+.fourth-container .information-credit .informationCredit {
+  width: 100%;
+  text-align: start;
+}
+
+.fourth-container .image-cards {
+  text-align: end;
+}
+
+.fifth-container {
+  margin-top: 55px;
+}
+
+.fifth-container .total-container p {
+  width: 136%;
+  font-size: small;
+  font-weight: lighter;
+  color: #ADB5BD;
+}
+
+.fifth-container .total-amount h1 {
+  text-align: end;
+}
+
+.fifth-container .booking button {
+  width: 100%;
+  height: 57px;
+  color: white;
+  background-color: #E85D04;
+  border: transparent;
+  font-weight: bolder;
+}
+
+.adantrip-container {
+  margin-top: 50px;
+  background-color: #E9ECEF;
+  height: 265px;
+}
+
+.adantrip-container .logo-adantrip {
+  margin-top: 20px;
+}
+
+.adantrip-container .logo-adantrip h1 {
+  color: #343A40;
+  font-weight: bolder;
+  text-shadow: grey;
+}
+
+.adantrip-container p {
+  margin-top: 10px;
+  width: 298px;
+  font-weight: lighter;
+  font-size: small;
+  color: #ADB5BD;
+}
+
+.adantrip-container .adantripInformation {
+  margin-top: 40px;
+  margin-left: -71px;
+}
+
+.adantrip-container .adantripInformation .travel .list-travel ul {
+  list-style-type: none;
+  width: 144px;
+  text-align: start;
+}
+
+.adantrip-container .adantripInformation .travel .list-travel ul li {
+  font-size: small;
+  font-weight: lighter;
+  color: #ADB5BD;
+}
+
+.adantrip-container .adantripInformation .explore .list-explore ul {
+  list-style-type: none;
+  width: 144px;
+  text-align: start;
+}
+
+.adantrip-container .adantripInformation .explore .list-explore ul li {
+  font-size: small;
+  font-weight: lighter;
+  color: #ADB5BD;
+}
+
+.adantrip-container .adantripInformation .book .list-book ul {
+  list-style-type: none;
+  width: 144px;
+  text-align: start;
+}
+
+.adantrip-container .adantripInformation .book .list-book ul li {
+  font-weight: lighter;
+  font-size: small;
+  color: #ADB5BD;
+}
+
+.adantrip-container .card {
+  position: relative;
+  left: 83px;
+  width: 410px;
+}
+
+.adantrip-container .card .card-img-overlay {
+  position: absolute;
+  top: 40px;
+}
+
+.adantrip-container .card .card-img-overlay .card-title {
+  font-weight: bolder;
+  color: white;
+}
+
+.adantrip-container .card .card-img-overlay .card-text {
+  font-weight: lighter;
+  color: white;
+}
+
+.adantrip-container .card .card-img-overlay .email input {
+  width: 300px;
+}
+
+.adantrip-container .card .card-img-overlay .deals .btn {
+  background-color: #E85D04;
+}
+
+.adantrip-container .card .card-img-overlay .deals .btn h6 {
+  font-weight: bolder;
+  color: white;
+  margin-top: 10px;
+}
+
+.final-container {
+  background-color: #343A40;
+  height: 50px;
+}
+
+.final-container .left-side {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.final-container .left-side .copy p {
+  color: #ADB5BD;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.final-container .right-side {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.final-container .right-side .icons {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 643px;
+}
+
+.final-container .right-side .icons .fab {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ADB5BD;
+}
+
+.aside-container .booking-summary h6 {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.aside-container .booking-summary p {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.aside-container .booking-charges .economy h6 {
+  font-size: small;
+  font-weight: bold;
+  word-spacing: 246px;
+}
+
+.aside-container .booking-charges p {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.aside-container .booking-charges h6 {
+  font-size: small;
+  font-weight: bold;
+  word-spacing: 277px;
+}
+
+.aside-container .booking-control .card-body {
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.aside-container .booking-control .controlCheck {
+  position: relative;
+  color: #ff6600;
+  left: -22px;
+  top: 19px;
+}
+
+.aside-container .booking-control h6 {
+  font-size: small;
+}
+
+.aside-container .booking-control p {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.aside-container .booking-control .controlSupport {
+  position: relative;
+  color: #ff6600;
+  left: -22px;
+  top: 19px;
+}
+
+.aside-container .booking-control .bookSupport {
+  width: 215px;
+}
+
+.aside-container .booking-control .bookSupport h6 {
+  font-size: small;
+  font-weight: bold;
+}
+
+.aside-container .booking-available {
+  margin-top: 461px;
+}
+
+.aside-container .booking-available .card-body {
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.aside-container .booking-available .card-text {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.aside-container .booking-available .bookSupport {
+  width: 215px;
+  font-size: small;
+}
+
+.aside-container .booking-available .controlSupport {
+  position: relative;
+  color: #ff6600;
+  left: -22px;
+  top: 19px;
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0px;
+  }
+  .nav-container {
+    width: 100%;
+    height: 60px;
+  }
+  .nav-container .fa-bars {
+    display: block;
+    color: white;
+    position: relative;
+    left: 349px;
+  }
+  .nav-container .left-side img {
+    position: relative;
+    right: 230px;
+  }
+  .nav-container .left-side .list {
+    display: none;
+  }
+  .nav-container .right-side {
+    display: none;
+  }
+  .flag {
+    display: none;
+  }
+  .second-container {
+    margin-top: 50px;
+  }
+  .second-container .passenger-details .passengerMonth {
+    margin-bottom: 10px;
+  }
+  .second-container .passenger-day .passengerDay {
+    margin-bottom: 10px;
+  }
+  .second-container .passenger-year .passengerYear {
+    margin-bottom: 10px;
+  }
+  .second-container .passenger-name .passengerFirst {
+    margin-bottom: 10px;
+  }
+  .second-container .passenger-passport .passengerPassport {
+    margin-bottom: 10px;
+  }
+  .second-container .passenger-gender .passengerGender {
+    margin-bottom: 10px;
+  }
+  .second-container .passenger-last .passengerLast {
+    margin-bottom: 10px;
+  }
+  .third-container {
+    margin-top: 50px;
+  }
+  .third-container .billing-street .billingStreet {
+    margin-bottom: 10px;
+  }
+  .third-container .billing-post .billingPost {
+    margin-bottom: 10px;
+  }
+  .third-container .billing-state .billingState {
+    margin-bottom: 10px;
+  }
+  .third-container .information-country .informationCountry {
+    margin-bottom: 10px;
+  }
+  .third-container .information-city .informationCity {
+    margin-bottom: 10px;
+  }
+  .third-container .information-street .informationStreet {
+    margin-bottom: 10px;
+  }
+  .fourth-container p {
+    margin-top: 10px;
+  }
+  .fourth-container .billing-card .billingCard {
+    margin-bottom: 10px;
+  }
+  .fourth-container .billing-month .billingMonth {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .fourth-container .billing-year .billingYear {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .fourth-container .information-credit .informationCredit {
+    margin-bottom: 10px;
+  }
+  .fourth-container .billing-security .billingSecurity {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .fifth-container {
+    margin-top: 55px;
+  }
+  .fifth-container .total-container p {
+    width: 101%;
+  }
+  .fifth-container .total-amount h1 {
+    text-align: start;
+  }
+  .fifth-container .booking button {
+    margin-bottom: 20px;
+  }
+  .aside-container .booking-summary {
+    margin-bottom: 10px;
+  }
+  .aside-container .booking-charges .economy h6 {
+    word-spacing: 190px;
+  }
+  .aside-container .booking-charges h6 {
+    word-spacing: 218px;
+  }
+  .aside-container .booking-control {
+    margin-top: 10px;
+  }
+  .aside-container .booking-available {
+    display: none;
+  }
+  .adantrip-container {
+    margin-top: 50px;
+    background-color: #E9ECEF;
+    height: 1042px;
+  }
+  .adantrip-container .logo-adantrip {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .adantrip-container .logo-adantrip h1 {
+    font-size: 50px;
+  }
+  .adantrip-container p {
+    text-align: center;
+    width: 351px;
+  }
+  .adantrip-container .adantripInformation .travel {
+    margin-left: 163px;
+  }
+  .adantrip-container .adantripInformation .travel .list-travel ul {
+    text-align: center;
+  }
+  .adantrip-container .adantripInformation .explore {
+    margin-left: 163px;
+  }
+  .adantrip-container .adantripInformation .explore .list-explore ul {
+    text-align: center;
+  }
+  .adantrip-container .adantripInformation .book {
+    margin-left: 163px;
+  }
+  .adantrip-container .adantripInformation .book .list-book ul {
+    text-align: center;
+  }
+  .adantrip-container .card {
+    position: relative;
+    width: 360px;
+    left: -5px;
+    right: auto;
+  }
+  .adantrip-container .card .card-img-overlay {
+    position: absolute;
+    top: 21px;
+  }
+  .adantrip-container .card .card-img-overlay .card-title {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+  }
+  .adantrip-container .card .card-img-overlay .card-text {
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+  }
+  .adantrip-container .card .card-img-overlay .email input {
+    width: 327px;
+  }
+  .adantrip-container .card .card-img-overlay .deals {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .adantrip-container .card .card-img-overlay .deals .btn {
+    background-color: #E85D04;
+  }
+  .adantrip-container .card .card-img-overlay .deals .btn h6 {
+    font-weight: bolder;
+    color: white;
+    margin-top: 10px;
+  }
+  .final-container {
+    background-color: #343A40;
+    height: 100px;
+  }
+  .final-container .left-side {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .final-container .left-side .copy p {
+    color: #ADB5BD;
+    font-size: small;
+    font-weight: lighter;
+  }
+  .final-container .right-side {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .final-container .right-side .icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 643px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

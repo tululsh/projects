@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- //nav-container -->
+    <div class="nav-container">
+        <i class="fas fa-bars"></i>
+        <div class="left-side">
+            <img src="./assets/adantrip.png" alt="">
+            <div class="list">
+                <ul>
+                    <li>Hotels</li>
+                    <li>Rooms</li>
+                    <li class="flight fw-bolder text-white">Flights</li>
+                    <li>Cars</li>
+                    <li>Experiences</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="states">
+                <h1>USD</h1>
+                <div class="icon">
+                    <img src="./assets/150px-Flag_of_the_United_States_(1818-1819).png" alt="" width="80">
+                </div>
+            </div>
+            <div class="my-account">
+                <div class="icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <h1>My Account</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner-container -->
+    <div class="banner-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h2 class="fw-bold text-white">Cheap Flights Best Deals</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <p class="fw-bold fs-6 text-white mt-sm-1 mb-sm-2">Search hundreds of travel sites at once</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-12">
+                    <div class="inputs-container">
+                    <div class="row">
+                        <div class="col-md-2 col-12 d-flex">
+                            <div class="mark-container">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+               
+                        <input type="text" class="inputDeparture bg-transparent border-white"placeholder ="Departure">
+                        </div>
+                        <div class="col-md-2 col-12 d-flex">
+                            <div class="markerTwo-container">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                            <input type="text"class="inputArrival bg-transparent border-white" placeholder="Arrival">
+                        </div>
+                        <div class="col-md-2 col-12 d-flex">
+                            <div class="calendar-container bg-transparent">
+                                <i class="far fa-calendar-alt"></i>
+                            </div>
+                            <input type="text" class="inputDateOne bg-transparent border-white"placeholder="mm/dd/yy">
+                        </div>
+                        <div class="col-md-2 col-12 d-flex">
+                            <div class="calendarTwo-container">
+                            <i class="far fa-calendar-alt"></i>
+                        </div>
+                            <input type="text" class="inputDateTwo bg-transparent border-white" placeholder="mm/dd/yy">
+                        </div>
+                        <div class="col-md-2 col-12 d-flex">
+                            <div class="friends-container">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                            <input type="text" class="inputNumber bg-transparent border-white"placeholder="1">
+                        </div>
+                        <div class="col-md-2 col-12 d-flex">
+                            <button class="btnSearch fs-6 text-white fw-bold border-white" type="submit">
+                               Search
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="type-container">
+                    <ul class="list-unstyled d-flex mt-md-3">
+                        <li class="roundTrip fw-bold fs-6 text-white">
+                            <input class="inputTrip form-check-input bg-gradient" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                            Round Trip
+                        </li>
+                        <li class="oneWay fw-bold fs-6 text-white">
+                            <input class="inputWay form-check-input bg-gradient ms-3" type="radio"name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                            One Way
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>

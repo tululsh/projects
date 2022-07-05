@@ -1,0 +1,218 @@
+body {
+  text-align: center;
+}
+
+.information-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.information-container .first-name .labalFirst {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.information-container .first-name .inputName {
+  height: 31px;
+  width: 269px;
+  margin-bottom: 10px;
+}
+
+.information-container .last-name .labalLast {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.information-container .last-name .inputLast {
+  height: 31px;
+  width: 269px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.information-container .gender-text .labalGender {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.information-container .gender-text .inputGender {
+  height: 31px;
+  width: 269px;
+  margin-bottom: 10px;
+  margin-left: 61px;
+}
+
+.information-container .address-text .labalAddress {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.information-container .address-text .inputAddress {
+  height: 31px;
+  width: 269px;
+  margin-bottom: 10px;
+  margin-left: 46px;
+}
+
+.information-container .email-text .labalEmail {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.information-container .email-text .inputEmail {
+  height: 31px;
+  width: 269px;
+  margin-bottom: 10px;
+  margin-left: 76px;
+}
+
+.information-container .age-text .labalAge {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.information-container .age-text .inputAge {
+  height: 31px;
+  width: 269px;
+  margin-bottom: 10px;
+  margin-left: 107px;
+}
+
+.button-container {
+  text-align: center;
+  margin-left: 157px;
+  margin-top: 20px;
+}
+
+.button-container .btnSubmit {
+  width: 87px;
+  height: 40px;
+  border: transparent;
+  background-color: #00adff;
+  font-size: 1.6em;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.button-container .btnClear {
+  width: 87px;
+  height: 40px;
+  border: transparent;
+  background-color: #ff4700;
+  font-size: 1.6em;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.guss-container {
+  margin-top: 100px;
+}
+
+.guss-container .pGuss {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.guss-container .labelGuss {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.guss-container input {
+  height: 31px;
+  width: 269px;
+}
+
+.guss-container .btnGuss {
+  height: 33px;
+  width: 190px;
+  border: transparent;
+  background-color: #00adff;
+  font-size: 1.6em;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.guss-container .feedback {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.players-container {
+  margin-top: 100px;
+  background-color: aqua;
+  width: 1640px;
+  margin-left: 254px;
+  height: 465px;
+}
+
+.players-container .pGuss {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.players-container .players-score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.players-container .players-score .player-one {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.players-container .players-score .player-one input {
+  height: 31px;
+  width: 269px;
+}
+
+.players-container .players-score .player-two {
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+  margin-left: 83px;
+}
+
+.players-container .players-score .player-two input {
+  height: 31px;
+  width: 269px;
+}
+
+.btnGussTwo {
+  width: 170px;
+  height: 43px;
+  border: transparent;
+  background-color: #00adff;
+  font-size: 1.4em;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.btnStart {
+  width: 144px;
+  height: 40px;
+  border: transparent;
+  background-color: #ff4700;
+  font-size: 1.6em;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

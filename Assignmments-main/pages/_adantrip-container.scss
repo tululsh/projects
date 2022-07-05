@@ -1,0 +1,130 @@
+// <!-- //adantrip-container -->
+.adantrip-container {
+    margin-top: 50px;
+    background-color: #E9ECEF;
+    height: 265px;
+
+
+    .logo-adantrip {
+        margin-top: 20px;
+
+        h1 {
+            color: #343A40;
+            font-weight: bolder;
+            text-shadow: grey;
+        }
+
+    }
+
+    p {
+        margin-top: 10px;
+        width: 298px;
+        font-weight: lighter;
+        font-size: small;
+        color: #ADB5BD;
+
+    }
+
+    .adantripInformation {
+        margin-top: 40px;
+        margin-left: -71px;
+
+        .travel {
+
+            .list-travel {
+
+                ul {
+                    list-style-type: none;
+                    width: 144px;
+                    text-align: start;
+
+                    li {
+                        font-size: small;
+                        font-weight: lighter;
+                        color: #ADB5BD;
+                    }
+                }
+            }
+        }
+
+        .explore {
+            .list-explore {
+                ul {
+                    list-style-type: none;
+                    width: 144px;
+                    text-align: start;
+
+                    li {
+                        font-size: small;
+                        font-weight: lighter;
+                        color: #ADB5BD;
+
+
+                    }
+                }
+            }
+        }
+
+        .book {
+            .list-book {
+                ul {
+                    list-style-type: none;
+                    width: 144px;
+                    text-align: start;
+
+                    li {
+                        font-weight: lighter;
+                        font-size: small;
+                        color: #ADB5BD;
+
+                    }
+
+                }
+            }
+        }
+
+
+    }
+
+    .card {
+        position: relative;
+        left: 83px;
+        width: 410px;
+
+        .card-img-overlay {
+            position: absolute;
+            top: 40px;
+
+            .card-title {
+                font-weight: bolder;
+                color: white;
+            }
+
+            .card-text {
+                font-weight: lighter;
+                color: white;
+            }
+
+            .email {
+                input {
+                    width: 300px;
+
+                }
+            }
+
+            .deals {
+
+                .btn {
+                    background-color: #E85D04;
+
+                    h6 {
+                        font-weight: bolder;
+                        color: white;
+                        margin-top: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}

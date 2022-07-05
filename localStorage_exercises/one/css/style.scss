@@ -1,0 +1,238 @@
+//   <!-- exercise one --> +   <!-- exercise two -->
+body {
+    text-align: center;
+}
+
+// information-container //
+.information-container {
+    margin-top: 50px;
+    text-align: center;
+
+
+    .first-name {
+        .labalFirst {
+            font-size: 2em;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .inputName {
+            height: 31px;
+            width: 269px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .last-name {
+        .labalLast {
+            font-size: 2em;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .inputLast {
+            height: 31px;
+            width: 269px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+        }
+    }
+
+    .gender-text {
+        .labalGender {
+            font-size: 2em;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .inputGender {
+            height: 31px;
+            width: 269px;
+            margin-bottom: 10px;
+            margin-left: 61px;
+        }
+    }
+
+    .address-text {
+        .labalAddress {
+            font-size: 2em;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .inputAddress {
+            height: 31px;
+            width: 269px;
+            margin-bottom: 10px;
+            margin-left: 46px;
+        }
+    }
+
+    .email-text {
+        .labalEmail {
+            font-size: 2em;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .inputEmail {
+            height: 31px;
+            width: 269px;
+            margin-bottom: 10px;
+            margin-left: 76px;
+        }
+    }
+
+    .age-text {
+        .labalAge {
+            font-size: 2em;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .inputAge {
+            height: 31px;
+            width: 269px;
+            margin-bottom: 10px;
+            margin-left: 107px;
+        }
+    }
+
+}
+
+// button-container//
+.button-container {
+    text-align: center;
+    margin-left: 157px;
+    margin-top: 20px;
+
+    .btnSubmit {
+        width: 87px;
+        height: 40px;
+        border: transparent;
+        background-color: #00adff;
+        font-size: 1.6em;
+        font-family: monospace;
+        font-weight: bolder;
+    }
+
+    .btnClear {
+        width: 87px;
+        height: 40px;
+        border: transparent;
+        background-color: #ff4700;
+        font-size: 1.6em;
+        font-family: monospace;
+        font-weight: bolder;
+    }
+
+}
+
+
+// <!-- exercise three -->
+// guss-container//
+.guss-container {
+    margin-top: 100px;
+
+    .pGuss {
+        font-size: 2em;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    .labelGuss {
+
+        font-size: 2em;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    input {
+        height: 31px;
+        width: 269px;
+    }
+
+    .btnGuss {
+        height: 33px;
+        width: 190px;
+        border: transparent;
+        background-color: #00adff;
+        font-size: 1.6em;
+        font-family: monospace;
+        font-weight: bolder;
+        margin-left: 10px;
+    }
+
+    .feedback {
+        font-size: 2em;
+        font-family: monospace;
+        font-weight: bold;
+    }
+}
+
+// <!-- exercise four -->
+
+.players-container {
+    margin-top: 100px;
+    background-color: aqua;
+    width: 1640px;
+    margin-left: 254px;
+    height: 465px;
+
+    .pGuss {
+        font-size: 2em;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    .players-score {
+        display: flex;
+        justify-content: center;
+
+        .player-one {
+            font-size: 2em;
+            font-family: monospace;
+            font-weight: bold;
+
+            input {
+                height: 31px;
+                width: 269px;
+            }
+
+        }
+
+        .player-two {
+            font-size: 2em;
+            font-family: monospace;
+            font-weight: bold;
+            margin-left: 83px;
+
+            input {
+                height: 31px;
+                width: 269px;
+            }
+        }
+    }
+
+}
+
+.btnGussTwo {
+    width: 170px;
+    height: 43px;
+    border: transparent;
+    background-color: #00adff;
+    font-size: 1.4em;
+    font-family: monospace;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.btnStart{
+    width: 144px;
+    height: 40px;
+    border: transparent;
+    background-color: #ff4700;
+    font-size: 1.6em;
+    font-family: monospace;
+    font-weight: bolder;
+    margin-top: 20px; 
+}

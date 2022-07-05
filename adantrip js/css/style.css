@@ -1,0 +1,535 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: url("../images/big-ben-bridge-castle-city-460672_1500x800.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.nav-container {
+  width: 85%;
+  height: 50px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 12px;
+  border-bottom: 1px solid white;
+}
+
+.nav-container .fa-bars {
+  display: none;
+}
+
+.nav-container .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8px;
+}
+
+.nav-container .left-side img {
+  height: 22px;
+  margin-top: 8px;
+  width: 111px;
+}
+
+.nav-container .left-side .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  width: 538px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-container .left-side .list ul li {
+  margin-right: 10px;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: small;
+  font-weight: bold;
+}
+
+.nav-container .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: -3px;
+}
+
+.nav-container .right-side .states {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .right-side .states h1 {
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.nav-container .right-side .states .icon img {
+  margin-right: 10px;
+  width: 17px;
+  height: 13px;
+  margin-bottom: 9px;
+}
+
+.nav-container .right-side .my-account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .right-side .my-account h1 {
+  color: white;
+  margin-right: 10px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.nav-container .right-side .my-account .icon {
+  margin-bottom: 10px;
+  color: white;
+  margin-right: 10px;
+}
+
+.banner-container {
+  margin-top: 100px;
+  margin-left: 187px;
+}
+
+.banner-container .inputs-container {
+  margin-left: -8px;
+}
+
+.banner-container .inputs-container input {
+  height: 50px;
+}
+
+.banner-container .inputs-container input::-webkit-input-placeholder {
+  font-size: 15px;
+  color: white;
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+}
+
+.banner-container .inputs-container input:-ms-input-placeholder {
+  font-size: 15px;
+  color: white;
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+}
+
+.banner-container .inputs-container input::-ms-input-placeholder {
+  font-size: 15px;
+  color: white;
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+}
+
+.banner-container .inputs-container input::placeholder {
+  font-size: 15px;
+  color: white;
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+}
+
+.banner-container .mark-container {
+  position: relative;
+  z-index: 2;
+  left: 167px;
+  top: 15px;
+  font-size: 12px;
+}
+
+.banner-container .markerTwo-container {
+  position: relative;
+  z-index: 2;
+  left: 167px;
+  top: 15px;
+  font-size: 12px;
+}
+
+.banner-container .calendar-container {
+  position: relative;
+  z-index: 2;
+  left: 165px;
+  top: 16px;
+  font-size: 12px;
+}
+
+.banner-container .calendarTwo-container {
+  position: relative;
+  z-index: 2;
+  left: 165px;
+  top: 16px;
+  font-size: 12px;
+}
+
+.banner-container .friends-container {
+  position: relative;
+  z-index: 2;
+  left: 167px;
+  top: 16px;
+  font-size: 10px;
+}
+
+.banner-container .fas {
+  color: black;
+  background-color: transparent;
+}
+
+.banner-container .far {
+  color: black;
+}
+
+.banner-container .btnSearch {
+  width: 125px;
+  margin-left: 15px;
+  background-color: #cbcbcb66;
+}
+
+.banner-container .type-container .inputTrip {
+  font-size: 8px;
+}
+
+.banner-container .type-container .inputWay {
+  font-size: 8px;
+  border-color: white;
+}
+
+.banner-container .type-container .oneWay {
+  margin-left: 78px;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url("../images/big-ben-bridge-castle-city-460672_1500x800.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .nav-container {
+    width: 85%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: none;
+  }
+  .nav-container .fa-bars {
+    display: block;
+    color: white;
+    position: relative;
+    left: 304px;
+    font-size: 24px;
+    top: 10px;
+  }
+  .nav-container .left-side img {
+    position: relative;
+    right: 214px;
+    width: 112px;
+    height: 33px;
+  }
+  .nav-container .left-side .list {
+    display: none;
+  }
+  .nav-container .right-side {
+    display: none;
+  }
+  .banner-container {
+    margin-top: 65px;
+  }
+  .banner-container h2 {
+    font-size: 30px;
+    margin-left: -185px;
+  }
+  .banner-container p {
+    font-size: 16px !important;
+    margin-left: -179px;
+  }
+  .banner-container .inputs-container {
+    margin-left: -200px;
+  }
+  .banner-container .inputs-container .inputDeparture {
+    margin-bottom: 12px;
+    width: 347px;
+  }
+  .banner-container .inputs-container .inputDeparture::-webkit-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDeparture:-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDeparture::-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDeparture::placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputArrival {
+    margin-bottom: 12px;
+    width: 347px;
+  }
+  .banner-container .inputs-container .inputArrival::-webkit-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputArrival:-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputArrival::-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputArrival::placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDateOne {
+    margin-bottom: 12px;
+    margin-left: -5px;
+    width: 347px;
+  }
+  .banner-container .inputs-container .inputDateOne::-webkit-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDateOne:-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDateOne::-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDateOne::placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDateTwo {
+    margin-bottom: 12px;
+    margin-left: -5px;
+    width: 347px;
+  }
+  .banner-container .inputs-container .inputDateTwo::-webkit-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDateTwo:-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDateTwo::-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputDateTwo::placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputNumber {
+    margin-bottom: 12px;
+    margin-left: -4px;
+    margin-left: -12px;
+    width: 347px;
+  }
+  .banner-container .inputs-container .inputNumber::-webkit-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputNumber:-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputNumber::-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .inputs-container .inputNumber::placeholder {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+  }
+  .banner-container .mark-container {
+    position: relative;
+    z-index: 2;
+    left: 324px;
+    top: 6px;
+    font-size: 23px;
+  }
+  .banner-container .markerTwo-container {
+    position: relative;
+    z-index: 2;
+    left: 324px;
+    top: 6px;
+    font-size: 23px;
+  }
+  .banner-container .calendar-container {
+    position: relative;
+    z-index: 2;
+    left: 326px;
+    top: 3px;
+    font-size: 26px;
+  }
+  .banner-container .calendarTwo-container {
+    position: relative;
+    z-index: 2;
+    left: 326px;
+    top: 3px;
+    font-size: 26px;
+  }
+  .banner-container .friends-container {
+    position: relative;
+    z-index: 2;
+    left: 326px;
+    top: 6px;
+    font-size: 23px;
+  }
+  .banner-container .fas {
+    color: whitesmoke;
+  }
+  .banner-container .far {
+    color: whitesmoke;
+  }
+  .banner-container .btnSearch {
+    width: 348px;
+    height: 50px;
+    margin-left: 17px;
+    background-color: #b7b7b794;
+    font-size: 24px !important;
+  }
+  .banner-container .type-container {
+    margin-top: 24px;
+    margin-left: -166px;
+  }
+  .banner-container .type-container .inputTrip {
+    font-size: 15px;
+  }
+  .banner-container .type-container .roundTrip {
+    font-size: 18px !important;
+  }
+  .banner-container .type-container .inputWay {
+    font-size: 15px;
+    border-color: white;
+  }
+  .banner-container .type-container .oneWay {
+    margin-left: 78px;
+    font-size: 18px !important;
+  }
+  .flights-container {
+    margin-top: 161px !important;
+  }
+  .main-container {
+    width: 374px !important;
+  }
+  .mainTwo-container {
+    width: 374px !important;
+  }
+  .mainThree-container {
+    width: 374px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

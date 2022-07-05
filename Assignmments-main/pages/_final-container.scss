@@ -1,0 +1,37 @@
+// <!-- //footer-container -->
+.final-container{
+    background-color: #343A40;
+    height: 50px;
+    
+.left-side{
+  align-items: center;
+  height: 60px;
+  display: flex;
+
+  .copy{
+    p{
+      color: #ADB5BD;
+      font-size: small;
+      font-weight: lighter;
+    }
+  }
+}
+    .right-side{
+      align-items: center;
+      height: 50px;
+      display: flex;
+   
+      .icons{
+        justify-content: flex-end;
+        display: flex;
+        width: 643px;
+        .fab{
+          padding-left: 10px;
+          padding-right: 10px;
+          color: #ADB5BD;
+      
+      } 
+      }
+      
+    }
+}

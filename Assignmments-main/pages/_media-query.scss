@@ -1,0 +1,391 @@
+@media screen and (max-width:375px) {
+
+  * {
+    margin: 0px;
+  }
+
+  // nav-container//
+  .nav-container {
+
+    width: 100%;
+    height: 60px;
+
+    .fa-bars {
+      display: block;
+      color: white;
+      position: relative;
+      left: 349px;
+    }
+
+    .left-side {
+      img {
+        position: relative;
+        right: 230px;
+      }
+
+      .list {
+        display: none;
+      }
+    }
+
+    .right-side {
+      display: none;
+    }
+  }
+
+  // <!-- banner-container -->
+  .flag {
+    display: none;
+  }
+
+
+  // <!-- //second-contaiher -->
+
+  .second-container {
+    margin-top: 50px;
+
+    .passenger-details {
+
+      .passengerMonth {
+        margin-bottom: 10px;
+      }
+    }
+
+    .passenger-day {
+      .passengerDay {
+        margin-bottom: 10px;
+      }
+    }
+
+    .passenger-year {
+      .passengerYear {
+        margin-bottom: 10px;
+      }
+
+    }
+
+    .passenger-name {
+      .passengerFirst {
+        margin-bottom: 10px;
+      }
+
+    }
+
+    .passenger-passport {
+      .passengerPassport {
+        margin-bottom: 10px;
+      }
+    }
+
+
+    .passenger-gender {
+      .passengerGender {
+        margin-bottom: 10px;
+      }
+    }
+
+
+    .passenger-last {
+      .passengerLast {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  // third-container//
+  .third-container {
+    margin-top: 50px;
+
+    .billing-street {
+      .billingStreet {
+        margin-bottom: 10px;
+      }
+    }
+
+    .billing-post {
+      .billingPost {
+        margin-bottom: 10px;
+      }
+    }
+
+    .billing-state {
+      .billingState {
+        margin-bottom: 10px;
+      }
+    }
+
+    .information-country {
+      .informationCountry {
+        margin-bottom: 10px;
+      }
+    }
+
+    .information-city {
+      .informationCity {
+        margin-bottom: 10px;
+      }
+    }
+
+    .information-street {
+      .informationStreet {
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+
+  // <!-- //fourth-container -->
+  .fourth-container {
+    p {
+      margin-top: 10px;
+    }
+
+    .billing-card {
+      .billingCard {
+        margin-bottom: 10px;
+      }
+    }
+
+    .billing-month {
+
+      .billingMonth {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    .billing-year {
+      .billingYear {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    .information-credit {
+      .informationCredit {
+        margin-bottom: 10px;
+      }
+    }
+
+    .billing-security {
+      .billingSecurity {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: start;
+      }
+    }
+
+  }
+
+
+
+  // fifth-container//
+
+  .fifth-container {
+    margin-top: 55px;
+
+    .total-container {
+      p {
+        width: 101%;
+
+
+      }
+    }
+
+    .total-amount {
+      h1 {
+        text-align: start;
+      }
+    }
+
+    .booking {
+      button {
+        margin-bottom: 20px;
+
+      }
+
+    }
+  }
+
+  // aside-container//
+
+  .aside-container {
+    .booking-summary {
+      margin-bottom: 10px;
+    }
+
+    .booking-charges {
+      .economy {
+
+        h6 {
+
+          word-spacing: 190px;
+        }
+      }
+
+
+
+      h6 {
+        word-spacing: 218px;
+      }
+    }
+
+    .booking-control {
+      margin-top: 10px;
+    }
+
+    .booking-available {
+      display: none;
+
+    }
+  }
+
+  // <!-- //adantrip-container -->
+  .adantrip-container {
+    margin-top: 50px;
+    background-color: #E9ECEF;
+    height: 1042px;
+
+
+    .logo-adantrip {
+      margin-top: 50px;
+      text-align: center;
+
+      h1 {
+        font-size: 50px;
+      }
+    }
+
+    p {
+      text-align: center;
+      width: 351px;
+
+    }
+
+    .adantripInformation {
+
+      .travel {
+        margin-left: 163px;
+
+        .list-travel {
+
+          ul {
+
+            text-align: center;
+          }
+        }
+
+
+
+
+      }
+
+      .explore {
+        margin-left: 163px;
+
+        .list-explore {
+
+          ul {
+            text-align: center;
+          }
+        }
+      }
+
+      .book {
+        margin-left: 163px;
+
+        .list-book {
+          ul {
+
+            text-align: center;
+
+          }
+        }
+      }
+
+    }
+
+    .card {
+      position: relative;
+      width: 360px;
+      left: -5px;
+      right: auto;
+
+      .card-img-overlay {
+        position: absolute;
+        top: 21px;
+
+        .card-title {
+          font-weight: bolder;
+          color: white;
+          text-align: center;
+        }
+
+        .card-text {
+          font-weight: lighter;
+          color: white;
+          text-align: center;
+        }
+
+        .email {
+          input {
+            width: 327px;
+
+          }
+        }
+
+        .deals {
+          text-align: center;
+          margin-top: 10px;
+
+          .btn {
+            background-color: #E85D04;
+
+            h6 {
+              font-weight: bolder;
+              color: white;
+              margin-top: 10px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  // <!-- //footer-container -->
+  .final-container {
+    background-color: #343A40;
+    height: 100px;
+
+    .left-side {
+      align-items: center;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+
+      .copy {
+        p {
+          color: #ADB5BD;
+          font-size: small;
+          font-weight: lighter;
+
+        }
+      }
+    }
+
+    .right-side {
+      align-items: center;
+      height: 50px;
+      display: flex;
+
+      .icons {
+        justify-content: center;
+        display: flex;
+        width: 643px;
+
+      }
+
+    }
+  }
+}

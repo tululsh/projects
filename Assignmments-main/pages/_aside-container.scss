@@ -1,0 +1,118 @@
+// aside-container//
+
+.aside-container {
+    .booking-summary {
+
+        h6 {
+            font-size: small;
+            font-weight: lighter;
+        }
+
+        p {
+            font-size: small;
+            font-weight: lighter;
+        }
+    }
+
+    .booking-charges {
+        .economy {
+
+            h6 {
+                font-size: small;
+                font-weight: bold;
+                word-spacing: 246px;
+
+
+            }
+        }
+
+        p {
+            font-size: small;
+            font-weight: lighter;
+
+        }
+
+        h6 {
+            font-size: small;
+            font-weight: bold;
+            word-spacing: 277px;
+        }
+    }
+
+    .booking-control {
+        .card-body {
+            margin-left: 20px;
+            margin-top: -15px;
+
+        }
+
+        .controlCheck {
+            position: relative;
+            color: #ff6600;
+            left: -22px;
+            top: 19px;
+
+        }
+
+        h6 {
+            font-size: small;
+
+
+        }
+
+        p {
+            font-size: small;
+            font-weight: lighter;
+        }
+
+        .controlSupport {
+
+            position: relative;
+            color: #ff6600;
+            left: -22px;
+            top: 19px;
+        }
+
+        .bookSupport {
+            width: 215px;
+
+            h6 {
+                font-size: small;
+                font-weight: bold;
+
+            }
+        }
+
+    }
+
+    .booking-available {
+        margin-top: 461px;
+
+        .card-body {
+            margin-left: 20px;
+            margin-top: -15px;
+
+        }
+
+        .card-text {
+            font-size: small;
+            font-weight: lighter;
+
+        }
+
+        .bookSupport {
+            width: 215px;
+            font-size: small;
+
+        }
+
+        .controlSupport {
+
+            position: relative;
+            color: #ff6600;
+            left: -22px;
+            top: 19px;
+        }
+    }
+
+}
