@@ -1,0 +1,41 @@
+.head-country {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f0f0f0;
+}
+
+.head-country h1 {
+  font-size: 4rem;
+  margin: 0.5rem auto;
+  letter-spacing: .25rem;
+  font-weight: 600;
+  color: orange;
+}
+
+.head-country p {
+  color: #555;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.search-country {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  background-color: #EEF7FF;
+}
+
+.search-country input {
+  color: orange;
+  width: 50%;
+  height: 5rem;
+  margin: 3rem auto;
+  margin-top: 83px;
+  text-indent: 2rem;
+  outline: none;
+  border: 0.2rem solid #f8e7e7;
+  font-size: 2rem;
+  border-radius: 3rem;
+  background: #faf6f6;
+}
+/*# sourceMappingURL=search.css.map */
