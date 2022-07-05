@@ -1,0 +1,28 @@
+.third-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+
+    .bank-container {
+        display: flex;
+
+        .text-center {
+            padding: 20px;
+
+            h5 {
+                font-size: 1.7em;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 5px;
+                color: black;
+
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                color: gray;
+
+            }
+        }
+    }
+}
